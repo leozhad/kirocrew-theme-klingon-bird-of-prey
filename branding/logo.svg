@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- The targeting display (V, frame 542): green sides, red lattice, an orange target. -->
+  <path d="M7.0 0.0L25.0 0.0L32.0 7.0L32.0 25.0L25.0 32.0L7.0 32.0L0.0 25.0L0.0 7.0Z" fill="#5c4c3e"/>
+  <path d="M8.5 2.5L23.5 2.5L29.5 8.5L29.5 23.5L23.5 29.5L8.5 29.5L2.5 23.5L2.5 8.5Z" fill="#000000"/>
+  <path d="M7 6.5h18M8.5 12h15M10 17.5h12M7 6.5l9 16M25 6.5l-9 16M12 6.5l7 13M20 6.5l-7 13" stroke="#ff0800" stroke-width="0.7"/>
+  <path d="M5 5.5l7 21M27 5.5l-7 21" stroke="#13f253" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M13.0 14.0L19.0 14.0L16.0 19.2ZM16.0 8.8L19.0 14.0L13.0 14.0ZM10.0 14.0L13.0 14.0L11.5 16.6ZM19.0 14.0L22.0 14.0L20.5 16.6Z" fill="#ff5805"/>
+</svg>
