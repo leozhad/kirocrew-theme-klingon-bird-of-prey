@@ -1,0 +1,58 @@
+/*
+ * The Bird-of-Prey bridge in Star Trek III to VI (1984-1991): Klaa's
+ * targeting display in V and the bronze-housed viewscreens of III, IV and VI.
+ * A red triangle lattice, glowing green sides, orange target triangles,
+ * amber panel light. Light mode uses the same rules: the films have no light
+ * screens. Cut corners use corner-shape: bevel; a browser without it shows
+ * rounded corners instead. Only runtime-allowlisted surfaces are styled.
+ */
+[data-theme="custom-leozh-klingon-bop-dark"] body,
+[data-theme="custom-leozh-klingon-bop-light"] body {
+  text-shadow: 0 0 6px color-mix(in srgb, currentColor 20%, transparent);
+}
+/* The targeting display's red lattice behind the chat. */
+[data-theme="custom-leozh-klingon-bop-dark"] .chat-container,
+[data-theme="custom-leozh-klingon-bop-light"] .chat-container {
+  background-image: linear-gradient(to top right, transparent calc(50% - 0.8px), rgba(255, 8, 0, 0.1) calc(50% - 0.8px) calc(50% + 0.8px), transparent calc(50% + 0.8px)),
+    linear-gradient(to bottom right, transparent calc(50% - 0.8px), rgba(255, 8, 0, 0.1) calc(50% - 0.8px) calc(50% + 0.8px), transparent calc(50% + 0.8px)),
+    linear-gradient(to bottom, rgba(255, 8, 0, 0.1) 0 0.8px, transparent 0.8px calc(50% - 0.8px), rgba(255, 8, 0, 0.1) calc(50% - 0.8px) calc(50% + 0.8px), transparent calc(50% + 0.8px) calc(100% - 0.8px), rgba(255, 8, 0, 0.1) calc(100% - 0.8px));
+  background-size: 44px 76.21px;
+}
+/* The session list is framed like the targeting display: glowing green
+ * sides, red top and bottom, cut corners. */
+[data-theme="custom-leozh-klingon-bop-dark"] .sidebar,
+[data-theme="custom-leozh-klingon-bop-light"] .sidebar {
+  border-style: solid;
+  border-color: #ff0800 #13f253;
+  border-width: 2px 6px;
+  border-radius: 24px;
+  corner-shape: bevel;
+  background: #000000;
+  box-shadow: 0 0 14px rgba(19, 242, 83, 0.4);
+}
+/* Code sits in the bronze octagonal housing of the bridge viewscreen. */
+[data-theme="custom-leozh-klingon-bop-dark"] .code-block,
+[data-theme="custom-leozh-klingon-bop-light"] .code-block {
+  border: 5px solid #5c4c3e;
+  border-radius: 20px;
+  corner-shape: bevel;
+  background: #000000;
+}
+[data-theme="custom-leozh-klingon-bop-dark"] .message-bubble,
+[data-theme="custom-leozh-klingon-bop-light"] .message-bubble {
+  border: 2px solid rgba(255, 8, 0, 0.7);
+  border-radius: 12px;
+  corner-shape: bevel;
+  background: #000000;
+}
+[data-theme="custom-leozh-klingon-bop-dark"] .input-area,
+[data-theme="custom-leozh-klingon-bop-light"] .input-area {
+  caret-color: #13f253;
+}
+[data-theme="custom-leozh-klingon-bop-dark"] button.primary,
+[data-theme="custom-leozh-klingon-bop-light"] button.primary {
+  border-radius: 10px;
+  corner-shape: bevel;
+  letter-spacing: 0.05em;
+  box-shadow: 0 0 10px rgba(19, 242, 83, 0.45);
+}
