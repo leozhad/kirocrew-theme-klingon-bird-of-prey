@@ -17,9 +17,9 @@
 -->
 <script>
 /*
- * Idle screensaver shell, shared by the two Klingon packs. tools/build.py
- * fills in the pack's scene (tools/standby/<pack>.js), its colours, glyph
- * shapes and text (C) and a glyph atlas of the pack's font (ATLAS).
+ * Idle screensaver shell, shared by the two Klingon packs. The source repo's
+ * build fills in the pack's scene, its colours, glyph shapes and text (C)
+ * and a glyph atlas of the pack's font (ATLAS).
  *
  * Runs inside the dashboard's sandboxed overlay iframe (no network, no storage).
  * The dashboard mounts it after 15 idle minutes and removes it on a key press
@@ -120,11 +120,11 @@
    * (V, frames 542, 543) in the bronze octagonal housing of the bridge
    * viewscreen (III frame 775, VI frame 1749), with the red triangle
    * indicator that sits above Chang's screen (VI, frame 1749). Colours are
-   * measured on the films (tools/film-evidence.md).
+   * measured on the films (see the README's film evidence).
    *
    * Inside the housing: a red triangle lattice in a trapezoid, glowing green
    * sides with a thin yellow-green inner line, orange corner triangles,
-   * columns of orange Klingon-style glyphs (original, tools/glyphs.py), and
+   * columns of orange Klingon-style glyphs (original, made in code), and
    * the target: the app's name drawn out of lit lattice triangles, with an
    * amber bracket that locks onto it. Lit cells on the lattice ripple as the
    * bracket closes.
