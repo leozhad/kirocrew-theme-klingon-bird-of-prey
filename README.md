@@ -12,7 +12,7 @@ An unofficial Kiro Crew theme modeled on the Klingon Bird-of-Prey bridge in *Sta
 - **Type:** Chakra Petch, a free sans whose letters have cut corners, like the screen housings. The Klingon screens carry no Latin type, only Klingon glyphs, so there is no film face to match.
 - **Shapes:** cut (bevelled) corners use CSS `corner-shape: bevel`, which Chrome, Edge and the desktop app draw. A browser without it shows rounded corners instead.
 - **Glyphs:** the Klingon-style glyphs on the splash and the screensaver are original, made in code. They are decoration: they spell nothing, as the film graphics did not.
-- **Sounds:** harsh, buzzy console tones when the theme turns on or off, when a reply arrives, on notifications, and when an approval waits, and a rising shimmer when the theme turns on (a nod to the decloak). Original sounds made in code (`tools/sounds.py`). None is taken from the films. They stay silent under reduced motion and while sounds are muted.
+- **Sounds:** harsh, buzzy console tones when the theme turns on or off, when a reply arrives, on notifications, and when an approval waits, and a rising shimmer when the theme turns on (a nod to the decloak). Original sounds made in code. None is taken from the films. They stay silent under reduced motion and while sounds are muted.
 
 Choosing this theme turns the screensaver on. The first time you pick it, Kiro Crew asks whether to play its sounds. Turn either off later under Settings → Display → Theme → Experience (Overlays for the screensaver, Sounds for the sounds).
 
@@ -49,7 +49,7 @@ The sounds are WAV files in `audio/`, named in `audio/manifest.json`: `activate`
 
 Colours were measured on [TrekCore](https://movies.trekcore.com/gallery/) Blu-ray screencaps: the film's hue and saturation, with brightness set for contrast (body text at least 7:1, secondary text and status colours at least 4.5:1). The frames are not in this repo.
 
-Sources: *The Search for Spock* and *The Voyage Home* 4K remaster Blu-ray (2021); *The Final Frontier* and *The Undiscovered Country* 4K remaster Blu-ray (2022). Bridge set: Jack T. Collis (design); backlit graphics: Michael Okuda; moving video displays: Video Images ([Memory Alpha, Klingon Bird-of-Prey (2280s)](https://memory-alpha.fandom.com/wiki/Klingon_Bird-of-Prey_(2280s))).
+Sources: *The Search for Spock* and *The Voyage Home* 4K remaster Blu-ray (2021); *The Final Frontier* and *The Undiscovered Country* 4K remaster Blu-ray (2022). Bridge set as built for *The Voyage Home*: Jack T. Collis (design); backlit graphics: Michael Okuda; moving video displays: Video Images; in *The Final Frontier* it also carried production designer Herman Zimmerman's work ([Memory Alpha, Klingon Bird-of-Prey (2280s)](https://memory-alpha.fandom.com/wiki/Klingon_Bird-of-Prey_(2280s))).
 
 | Colour | Film, frame | What it is | Film hue, sat |
 |---|---|---|---|
@@ -77,4 +77,4 @@ Not used: the Enterprise wireframe on Kruge's monitor (III 775) is a Federation 
 
 See [`LICENSE.txt`](LICENSE.txt). The pack, its artwork, its glyph shapes and its sounds are MIT; the sounds are original, synthesized in code, and inspired by the films. The font, Chakra Petch, is under the SIL Open Font License 1.1.
 
-Unofficial fan art. Star Trek, the Klingon emblem, the ships and related marks belong to their owners (CBS Studios / Paramount). Not affiliated with or endorsed by them. This repo ships no film images and no film audio.
+Unofficial, non-commercial fan art. Star Trek, the Klingon emblem, the ships and related marks are trademarks of their owners (CBS Studios / Paramount). Not affiliated with or endorsed by them. This repo ships no film images and no film audio.
